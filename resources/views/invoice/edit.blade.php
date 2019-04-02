@@ -84,7 +84,7 @@
                 </table>
             </div>
             </div>
-            <div class="d-flex flex-row-reverse">
+            <div class="d-flex flex-row">
                 <input type="button" id="add_product" class="btn btn-success" value="Add Product">
             </div>
             <div class="row justify-content-end" style="margin-top:20px">
@@ -120,7 +120,7 @@
         </div>
         <h5>Payment Type</h5>
         <div class="row mt-2">
-            <div class="col-md-6">
+            <div class="col-md-8">
                 <table class="table table-hover" id="tbl_payment_type">
                     <thead>
                         <tr>
@@ -153,10 +153,12 @@
                 </table>
             </div>
         </div>
-        <div class="d-flex flex-row-reverse col-md-6">
+        <div class="d-flex flex-row col-md-12">
             <input type="button" id="add_payment_type" class="btn btn-success" value="Add Payment Type">
         </div>
-        <button type="submit" class="btn btn-primary mt-3">Update Invoice</button>
+        <div class="text-center mb-5">
+            <button type="submit" class="btn btn-primary mt-3">UPDATE INVOICE</button>
+        </div>
     </form>
     </div>
 @endsection
